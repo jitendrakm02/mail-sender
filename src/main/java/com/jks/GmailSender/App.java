@@ -24,7 +24,7 @@ public class App
         System.out.println( "Preparing mail......" );
         String message="Hello ,This is mail for java opening for TCS";
         String subject="Singh Group";
-        String to="sr4446@gmail.com";
+        String to="abc@gmail.com";
         String from="jitendrakm.02@gmail.com";
         
         sendEmail(message,subject,to,from);
@@ -50,7 +50,7 @@ public class App
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
 				// TODO Auto-generated method stub
-				return new PasswordAuthentication("jitendrakm.02@gmail.com","surajsingh1991@");
+				return new PasswordAuthentication("jitendrakm.02@gmail.com","xyzzzz");
 			}
 			
 		});
